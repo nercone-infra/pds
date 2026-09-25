@@ -1,0 +1,4 @@
+# TYPE    LISTEN            TARGET            OPTIONS
+server    443               127.0.0.1:3000    timeout=1h
+
+client    127.0.0.1:587     mail:587          timeout=30m
